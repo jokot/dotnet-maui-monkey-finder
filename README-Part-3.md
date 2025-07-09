@@ -290,4 +290,4 @@ Let's add UI to the DetailsPage. Our end goal is to get a fancy profile screen l
 
 1. Run the application on the desired platform and tap on a monkey to navigate!
 
-Platform features are the next topic for us to explore.  Navigate to [Part 4](../Part%204%20-%20Platform%20Features/README.md) to begin the next module.
+Platform features are the next topic for us to explore.  Navigate to [Part 4](README-Part-4.md) to begin the next module.

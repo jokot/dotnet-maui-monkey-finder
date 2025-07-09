@@ -767,4 +767,4 @@ It is now time to build the .NET MAUI user interface in `View/MainPage.xaml`. Ou
 
 2. In Visual Studio, click "Start Debugging". When the application starts you will see a **Get Monkeys** button that when pressed will load monkey data from the internet!
 
-Let's continue our journey and learn about Navigation in [Part 3](../Part%203%20-%20Navigation/README.md)
+Let's continue our journey and learn about Navigation in [Part 3](README-Part-3.md)

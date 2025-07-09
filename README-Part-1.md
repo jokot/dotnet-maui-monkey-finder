@@ -152,4 +152,4 @@ Running the app will result in a list of three monkeys:
 
 ![App running on Android showing 3 monkeys](../Art/CodedMonkeys.png)
 
-Let's continue and learn about using the MVVM pattern with data binding in [Part 2](../Part%202%20-%20MVVM/README.md)
+Let's continue and learn about using the MVVM pattern with data binding in [Part 2](README-Part-2.md)
