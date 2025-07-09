@@ -22,6 +22,11 @@
                     <Grid Padding="10">
                         <Border HeightRequest="125"
                                 Style="{StaticResource CardView}">
+                            <Border.GestureRecognizers>
+                                <TapGestureRecognizer
+                                    Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:MonkeysViewModel}}, x:DataType=viewmodel:MonkeysViewModel, Path=GoToDetailsCommand}"
+                                    CommandParameter="{Binding .}"/>
+                            </Border.GestureRecognizers>
                             <Grid Padding="0"
                                   ColumnDefinitions="125,*">
                                 <Image
@@ -45,7 +50,7 @@
             </CollectionView.ItemTemplate>
         </CollectionView>
 
-        <Button 
+        <Button
             Text="Get Monkeys"
             Command="{Binding GetMonkeysCommand}"
             IsEnabled="{Binding IsNotBusy}"
@@ -53,7 +58,7 @@
             Grid.Column="0"
             Style="{StaticResource ButtonOutline}"
             Margin="8"/>
-        
+
         <ActivityIndicator
             IsVisible="{Binding IsBusy}"
             IsRunning="{Binding IsBusy}"
