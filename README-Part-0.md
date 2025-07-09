@@ -10,7 +10,7 @@ This MonkeyFinder contains 1 project:
 
 * MonkeyFinder - The main .NET MAUI project that targets Android, iOS, macOS, and Windows. It includes all scaffolding for the app including Models, Views, ViewModels, and Services.
 
-![Solution for the monkey finder app with multiple folders](../Art/Solution.PNG)
+![Solution for the monkey finder app with multiple folders](https://github.com/dotnet-presentations/dotnet-maui-workshop/raw/main/Art/Solution.PNG)
 
 The **MonkeyFinder** project also has blank code files and XAML pages that we will use during the workshop. All of the code that we modify will be in this project for the workshop.
 
@@ -54,7 +54,7 @@ Resource files should be placed in the _Resources_ folder of your .NET MAUI app 
 
 When a resource file is added to a .NET MAUI app project, a corresponding entry for the resource is created in the project (.csproj) file. After adding a resource file, its build action can be set in the **Properties** window. The following screenshot shows a _Resources_ folder containing image and font resources in child folders:
 
-![Image and font resources screenshot.](../Art/ResourcesSingleProject.png)
+![Image and font resources screenshot.](https://github.com/dotnet-presentations/dotnet-maui-workshop/raw/main/Art/ResourcesSingleProject.png)
 
 Child folders of the _Resources_ folder can be designated for each resource type by editing the project file for your app:
 

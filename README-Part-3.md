@@ -211,7 +211,7 @@ Now that we have our details page in place, we need to register it for routing. 
 
 Let's add UI to the DetailsPage. Our end goal is to get a fancy profile screen like this:
 
-![](../Art/Details.PNG)
+![](https://github.com/dotnet-presentations/dotnet-maui-workshop/raw/main/Art/Details.PNG)
 
 
 1. Let's first start by defining our DataType by defining the view model namespace and also setting the title:

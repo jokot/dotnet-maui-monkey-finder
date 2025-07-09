@@ -11,7 +11,7 @@ This MonkeyFinder contains 1 project:
 
 * MonkeyFinder - The main .NET MAUI project that targets Android, iOS, macOS, and Windows. It includes all scaffolding for the app including Models, Views, ViewModels, and Services.
 
-![Solution for the monkey finder app with multipel folders](../Art/Solution.PNG)
+![Solution for the monkey finder app with multipel folders](https://github.com/dotnet-presentations/dotnet-maui-workshop/raw/main/Art/Solution.PNG)
 
 The **MonkeyFinder** project also has blank code files and XAML pages that we will use during the workshop. All of the code that we modify will be in this project for the workshop.
 
@@ -21,14 +21,14 @@ All projects have the required NuGet packages already installed, so there will b
 
 1. **Right-click** on the **Solution** and select **Restore NuGet packages...**
 
-![Restore NuGets](../Art/RestoreNuGets.PNG)
+![Restore NuGets](https://github.com/dotnet-presentations/dotnet-maui-workshop/raw/main/Art/RestoreNuGets.PNG)
 
 
 ### Model
 
 We will be downloading details about the monkey and will need a class to represent it.
 
-![Converting json to c# classes](../Art/Convert.PNG)
+![Converting json to c# classes](https://github.com/dotnet-presentations/dotnet-maui-workshop/raw/main/Art/Convert.PNG)
 
 We can easily convert our json file located at [montemagno.com/monkeys.json](https://montemagno.com/monkeys.json) by using [json2csharp.com](https://json2csharp.com) and pasting the raw json into quicktype to generate our C# classes. Ensure that you set the Name to `Monkey` and the generated namespace to `MonkeyFinder.Model` and select C#. 
 
@@ -143,13 +143,13 @@ Ensure that you have your machine setup to deploy and debug to the different pla
 1. In Visual Studio, set the Android or Windows app as the startup project by selecting the drop down in the debug menu and changing the `Framework`
 
 
-![Visual Studio debug dropdown showing multiple frameworks](../Art/SelectFramework.png)
+![Visual Studio debug dropdown showing multiple frameworks](https://github.com/dotnet-presentations/dotnet-maui-workshop/raw/main/Art/SelectFramework.png)
 
 2. In Visual Studio, click the "Debug" button or Tools -> Start Debugging
     - If you are having any trouble, see the Setup guides for your runtime platform
 
 Running the app will result in a list of three monkeys:
 
-![App running on Android showing 3 monkeys](../Art/CodedMonkeys.png)
+![App running on Android showing 3 monkeys](https://github.com/dotnet-presentations/dotnet-maui-workshop/raw/main/Art/CodedMonkeys.png)
 
 Let's continue and learn about using the MVVM pattern with data binding in [Part 2](README-Part-2.md)

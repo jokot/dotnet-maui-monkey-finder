@@ -517,7 +517,7 @@ We are registering the `MonkeyService` and `MonkeysViewModel` as singletons. Thi
 ## Build The Monkeys User Interface
 It is now time to build the .NET MAUI user interface in `View/MainPage.xaml`. Our end result is to build a page that looks like this:
 
-![](../Art/FinalUI.PNG)
+![](https://github.com/dotnet-presentations/dotnet-maui-workshop/raw/main/Art/FinalUI.PNG)
 
 1. In `MainPage.xaml`, add a `xmlns:viewmodel` namespace and a `x:DataType` at the top of the `ContentPage` tag, which will enable us to get binding intellisense:
 

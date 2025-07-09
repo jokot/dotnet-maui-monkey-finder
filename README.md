@@ -4,13 +4,13 @@ This repository contains the complete .NET MAUI Monkey Finder workshop, combinin
 
 ## Workshop Parts
 
-- [Part 0 - Setup and Introduction](README-Part-0.md) - Project setup and basic understanding
-- [Part 1 - Displaying Data](README-Part-1.md) - Displaying data in lists
-- [Part 2 - MVVM and Data Binding](README-Part-2.md) - Implementing MVVM pattern
-- [Part 3 - Navigation](README-Part-3.md) - Adding navigation between pages
-- [Part 4 - Platform Integration](README-Part-4.md) - Platform-specific features
-- [Part 5 - Data and Services](README-Part-5.md) - Working with data and services
-- [Part 6 - Testing](README-Part-6.md) - Unit testing and UI testing
+- [Part 0 - Overview](README-Part-0.md) - Understanding .NET MAUI project structure and resource management
+- [Part 1 - Displaying Data](README-Part-1.md) - Creating data models and displaying hardcoded data in CollectionView
+- [Part 2 - MVVM](README-Part-2.md) - Implementing MVVM pattern with data binding and HTTP services
+- [Part 3 - Navigation](README-Part-3.md) - Adding Shell navigation with parameter passing between pages
+- [Part 4 - Platform Features](README-Part-4.md) - Using geolocation, maps, and connectivity APIs
+- [Part 5 - ColleationView](README-Part-5.md) - Adding pull-to-refresh and exploring CollectionView layouts
+- [Part 6 - AppThemes](README-Part-6.md) - Implementing light/dark themes with AppThemeBinding
 
 ## Getting Started
 

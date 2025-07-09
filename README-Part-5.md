@@ -55,7 +55,7 @@ Since the user can initiate a refresh, we will want to create a new variable in 
 
 This will enable pull-to-refresh on iOS, Android, macOS, and Windows (on touch screen):
 
-![Android emulator with pull to refresh enabled](../Art/PullToRefresh.PNG)
+![Android emulator with pull to refresh enabled](https://github.com/dotnet-presentations/dotnet-maui-workshop/raw/main/Art/PullToRefresh.PNG)
 
 > Important Note: If you are on iOS there currently is a bug which makes the UI look incorrect. It is recommended to remove the RefreshView when testing on iOS for the rest of the workshop.
 
@@ -99,7 +99,7 @@ Let's use the `GridItemsLayout` and change the span to 3
 </CollectionView>
 ```
 
-![Monkeys in a grid with 3 columns](../Art/GridItemsLayoutVert.png)
+![Monkeys in a grid with 3 columns](https://github.com/dotnet-presentations/dotnet-maui-workshop/raw/main/Art/GridItemsLayoutVert.png)
 
 We can change the `Orientation` to `Horizontal` and now our CollectionView will scroll left to right!
 
@@ -109,7 +109,7 @@ We can change the `Orientation` to `Horizontal` and now our CollectionView will 
 </CollectionView.ItemsLayout>
 ```
 
-![List of monkeys scrolling left to right](../Art/GridItemsLayoutHorizontal.png)
+![List of monkeys scrolling left to right](https://github.com/dotnet-presentations/dotnet-maui-workshop/raw/main/Art/GridItemsLayoutHorizontal.png)
 
 Let's go back to our original single column `CollectionView`:
 
@@ -147,6 +147,6 @@ Let's add an image centered in the `EmptyView`:
 ```
 
 
-![Emulator without any items in it showing an image in the middle](../Art/EmptyView.png)
+![Emulator without any items in it showing an image in the middle](https://github.com/dotnet-presentations/dotnet-maui-workshop/raw/main/Art/EmptyView.png)
 
 In our next module, we'll learn about Application Themes.  Head over to [Part 6](README-Part-6.md)
